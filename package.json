@@ -1,6 +1,6 @@
 {
   "name": "@zppack/glob",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An expand package of node-glob.",
   "keywords": [
     "glob",

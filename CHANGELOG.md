@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/zppack/glob/compare/v1.0.0...v1.0.1) (2021-03-24)
+
+
+### Documentations
+
+* complete the documentation ([b423d54](https://github.com/zppack/glob/commit/b423d546772cd9e41d6533a2dc29493385471e6d))
+
 ## 1.0.0 (2021-03-24)
 
 
