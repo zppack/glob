@@ -1,15 +1,5 @@
 # How to contribute to this project
 
-? How to apply for authority related to this project
-
-? Code styles, naming rules and direction structure rules
-
-? Commit rules and pull-request styles or tips
-
-? Documentation or comments rules
-
-? Warnings
-
 ## Commits
 
 This project uses `standard-version`, which depends on `[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)` rules, for versions and change logs management.
