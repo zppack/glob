@@ -1,0 +1,52 @@
+{
+  "name": "@zppack/glob",
+  "version": "1.0.0",
+  "description": "An expand package of node-glob.",
+  "keywords": [
+    "glob",
+    "ramda",
+    "node-glob",
+    "union"
+  ],
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "",
+    "prebuild": "npm run clean",
+    "build": "babel src -d dist",
+    "clean": "rimraf dist",
+    "prepare": "npm run build",
+    "release": "standard-version && npm publish --access public",
+    "release:first": "standard-version --first-release && npm publish --access public",
+    "postrelease": "git push && git push origin --tags",
+    "postrelease:first": "git push && git push origin --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zppack/glob.git"
+  },
+  "author": "John Chan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zppack/glob/issues"
+  },
+  "homepage": "https://github.com/zppack/glob",
+  "dependencies": {
+    "glob": "^7.1.6",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "rimraf": "^3.0.2",
+    "standard-version": "^9.1.1"
+  },
+  "engines": {
+    "node": ">=12",
+    "npm": ">=6"
+  }
+}
